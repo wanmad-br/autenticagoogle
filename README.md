@@ -55,7 +55,3 @@ user-login-app
 
 - Click the "Login with Google" button to initiate the authentication process.
 - Upon successful login, user information will be displayed.
-
-## License
-
-This project is licensed under the MIT License.
