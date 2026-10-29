@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const googleLoginButton = document.getElementById('google-login-button');
 
     googleLoginButton.addEventListener('click', function() {
-        const clientId = 'YOUR_GOOGLE_CLIENT_ID';
+        const clientId = 'YOUR_GOOGLE_CLIENT_ID_TEST';
         const redirectUri = 'http://localhost:8080/auth/google/callback';
         const scope = 'profile email';
         const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=${scope}`;
